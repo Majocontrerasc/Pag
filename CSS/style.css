@@ -185,7 +185,7 @@ header{
 }
 
 .text__card-primary{
-    max-width: 800px;
+    max-width: 500px;
     margin: auto;
 }
 
@@ -253,6 +253,13 @@ header{
 .image_secundary{
     display: flex;
     margin: 20px;
+}
+.box-cardPrimary i{
+    margin-top: 30px;
+}
+.container__card-third{
+    padding-top: 100px;
+    
 }
 
 
