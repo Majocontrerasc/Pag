@@ -24,7 +24,11 @@
 header{
     width: 100%;
     height: 100px;
+    background-color: #fccfcf;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 #00000033;
     position: fixed;
+    top: 0;
     z-index: 100;
   
 }
@@ -110,6 +114,7 @@ header{
 
 .menu .socialMedia img{
     width: 20px;
+    backdrop-filter:
 }
 
 /*Portada Inicio */
@@ -121,16 +126,22 @@ header{
 }
 
 .cover{
-    max-width: 1200px;
-    margin: auto;
+    /* max-width: 1200px; */
+    /* margin: auto; */
     margin-top: 100px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
     padding: 0px 20px;
+    background-color: #F2C9F7;
+    width: 100%;
+    height: 40%;
 }
 .text_cover{
-    width: 100%;
-    padding-right: 150px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
 }
 .text_cover h1{
     font-size: 50px;
@@ -140,6 +151,10 @@ header{
     font-size: var(--text_paragraph);
     margin-top: 40px;
     color: var(--color_text-primary);
+}
+.text_cover a{
+    justify-content: center;
+    align-items: center;
 }
 
 .btn_text{
@@ -161,6 +176,13 @@ header{
     background: transparent;
     border: 2px solid var(--main_color-primary);
     color: var(--color_text-tertiary);
+}
+.image1_cover{
+    width: 50%;
+}
+.image_page_index{
+    width: 50%;
+    height: 50%;
 }
 .image__cover{
     width: 100%;
@@ -451,20 +473,22 @@ header{
     height: 100%;
     width: 100%;
 }
-.fourth_member{
-    height: 50%;
-    width: 20%;
-    margin-top: 35px;
-    text-align: center;
-    padding: 5px;
-    flex-direction: colum;
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social_icons{
+    border-radius: 30%;
+    height: 15%;
+    width: 15%;
+    margin-top: 5px;
+}
+.social_icons:hover{
+    transform: scale(1.1);
+    transition: all ease-in-out .6s;
+    box-shadow: 1px 3px 41px -10px var(--main_color-primary);
+}
 
-}
-.fourth_member_img{
-    border-radius: 5px;
-    height: 100%;
-    width: 100%;
-}
 
 
 
